@@ -38,6 +38,7 @@ nav {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 .nav-links a:hover {
@@ -50,6 +51,7 @@ nav {
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    transition: background 0.3s;
 }
 
 .login-btn:hover {
@@ -90,6 +92,7 @@ nav {
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
+    transition: background 0.3s;
 }
 
 .shop-now-btn:hover {
@@ -130,6 +133,71 @@ nav {
     max-width: 100px;
     height: auto;
     margin-bottom: 0.5rem;
+}
+
+/* About section */
+.about {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.about .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact section */
+.contact {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.contact .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact label {
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
 }
 
 /* Footer section */
